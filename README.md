@@ -162,13 +162,13 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
 ```
 # How to cite this Software?
 
-You can cite all versions by using the <b>DOI 10.5281/zenodo.1219522</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
+You can cite all versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1219522.svg)](https://doi.org/10.5281/zenodo.1219522)
+[![DOI](https://zenodo.org/badge/178474693.svg)](https://zenodo.org/badge/latestdoi/178474693)
 
 ## v1.x
 
-DDRS4PALS <b>v1.0</b> (<b>DMLLTDetectorPulseDiscriminator v1.0</b>):<br>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2540851.svg)](https://doi.org/10.5281/zenodo.2540851)<br>
+DDRS4PALS <b>v1.0</b> (<b>DMLLTDetectorPulseDiscriminator v1.0</b>):<br>[![DOI][![DOI](https://zenodo.org/badge/178474693.svg)](https://zenodo.org/badge/latestdoi/178474693)<br>
 
 # (BSD-3-Clause) - pyDMLLTDetectorPulseDiscriminator
 
