@@ -22,7 +22,7 @@ A <b>python-based framework</b>, which provides the functionalities for <b>TRAIN
 
 ## (2) DPulseStreamAPI: 
 
-A <b>c/c++ based API</b>, which can be <b>easily implemented in each software/framework/library</b> for providing the functionality of streaming detector output pulses binary on an (external) hard drive. 'pyDMLLTDetectorPulseDiscriminator' requires the format of streamed pulses as provided by this c/c++ API.  
+A <b>c/c++ based API</b>, which can be <b>easily implemented in each software/framework/library</b> for providing the functionality of streaming detector output pulses binary on an (external) hard drive. [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) requires the format of streamed pulses as provided by this c/c++ API.  
 
 # How to start?
 
