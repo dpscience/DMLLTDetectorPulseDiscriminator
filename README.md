@@ -30,6 +30,7 @@ A <b>c/c++ based API</b>, which can be <b>easily implemented in each software/fr
 
 <b>(1)</b> store a number of CORRECT and FALSE detector pulses on a separate stream for each detector A and B (e.g. in case of using the DRS4 evaluation board you can easily install the [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).</b> <br><br>
 <b>(2)</b> TRAIN (and TEST/EVALuate) the machine's classifier (A and B) by using the streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
+For more details see [examples](/DMLLTDetectorPulseDiscriminator/examples).
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
