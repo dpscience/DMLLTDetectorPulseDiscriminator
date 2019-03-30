@@ -8,7 +8,7 @@ Copyright (c) 2019 Danny Petschke (danny.petschke@uni-wuerzburg.de) All rights r
 
 ## (1) pyDMLLTDetectorPulseDiscriminator:
 
-A <b>python-based framework</b>, which provides the functionalities for <b>TRAINing and TESTing/EVALuating a classifier</b>, such as the naives Bayes classifier, on CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses using a TRAINed classifier.
+A <b>python-based framework</b>, which provides the functionalities for <b>TRAINing and TESTing/EVALuating a classifier</b>, such as the naive Bayes classifier, on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier.
 
 ## Python Requirements
 
@@ -22,15 +22,16 @@ A <b>python-based framework</b>, which provides the functionalities for <b>TRAIN
 
 ## (2) DPulseStreamAPI: 
 
-A <b>c/c++ based API</b>, which can be <b>easily implemented in each software/framework/library</b> for providing the functionality of streaming detector output pulses binary on an (external) hard drive. [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) requires the format of streamed pulses as provided by this c/c++ API.  
+A simple <b>c/c++ API</b>, which can be <b> integrated in each software (framework, library, ...)</b> for providing the functionality of streaming detector output pulses on an (external) hard drive. [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) requires the format of streamed pulses as provided by this c/c++ API.  
 
 # How to start?
 
 ## Basic Principle
 
-<b>(1)</b> store a number of CORRECT and FALSE detector pulses on a separate stream for each detector A and B (e.g. in case of using the DRS4 evaluation board you can easily install the [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).</b> <br><br>
-<b>(2)</b> TRAIN (and TEST/EVALuate) the machine's classifier (A and B) by using the streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
+<b>(1)</b> store a number of CORRECT and FALSE detector pulses on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).</b> <br><br>
+<b>(2)</b> TRAIN (and TEST/EVALuate) the machine's classifier (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator/examples).
+<br><br><b>(3) Generate the lifetime spectrum using the pulse stream recorded on the investigated sample by applying the TRAINed classifiers for pulse-shape discrimination.  
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
