@@ -169,7 +169,7 @@ You can cite all versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This D
 
 ## v1.x
 
-DDRS4PALS <b>v1.0</b> (<b>DMLLTDetectorPulseDiscriminator v1.0</b>):<br>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2616929.svg)](https://doi.org/10.5281/zenodo.2616929)<br>
+<b>DMLLTDetectorPulseDiscriminator v1.0</b><br>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2616929.svg)](https://doi.org/10.5281/zenodo.2616929)<br>
 
 # (BSD-3-Clause) - pyDMLLTDetectorPulseDiscriminator
 
