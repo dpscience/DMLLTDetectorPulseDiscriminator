@@ -28,8 +28,8 @@ A simple <b>c/c++ API</b>, which can be <b> integrated in each software (framewo
 
 ## Basic Principle
 
-<b>(1)</b> Store a number of CORRECT and FALSE detector pulses on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).</b> <br><br>
-<b>(2)</b> TRAIN (and TEST/EVALuate) the machine's classifier (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
+<b>(1) Store a number of CORRECT and FALSE detector pulses</b> on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).<br><br>
+<b>(2) TRAIN (and TEST/EVALuate) the machine's classifier</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/tree/master/pyDMLLTDetectorPulseDiscriminator/examples).
 <br><br><b>(3) Generate the lifetime spectrum</b> using the pulse stream recorded on the investigated sample by applying the TRAINed classifiers for pulse-shape discrimination.  
 
