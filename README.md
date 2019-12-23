@@ -1,16 +1,18 @@
+Support this project and keep always updated about recent software releases, bug fixes and major improvements by [following on researchgate](https://www.researchgate.net/project/A-supervised-machine-learning-approach-for-shape-sensitive-detector-pulse-discrimination-in-lifetime-spectroscopy-applications) or [github](https://github.com/dpscience?tab=followers).<br><br>
+
 # DMLLTDetectorPulseDiscriminator  
 
 Copyright (c) 2019 Danny Petschke (danny.petschke@uni-wuerzburg.de) All rights reserved.<br><br>
 <b>DMLLTDetectorPulseDiscriminator</b> - A supervised Machine Learning Approach for shape-sensitive Detector Pulse Discrimination in Lifetime Spectroscopy Applications.
 <br>
 
-# Software Packages (and Requirements)
+# Software Packages and Requirements
 
 ## (1) pyDMLLTDetectorPulseDiscriminator:
 
 A <b>python-based framework</b>, which provides the functionalities for <b>TRAINing and TESTing/EVALuating a classifier</b>, such as the naive Bayes classifier, on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier.
 
-## Python Requirements
+## Requirements
 
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [NumPy](http://www.numpy.org/) 
@@ -22,16 +24,16 @@ A <b>python-based framework</b>, which provides the functionalities for <b>TRAIN
 
 ## (2) DPulseStreamAPI: 
 
-A simple <b>c/c++ API</b>, which can be <b> integrated in each software (framework, library, ...)</b> for providing the functionality of streaming detector output pulses on an (external) hard drive. [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) requires the format of streamed pulses as provided by this c/c++ API.  
+A simple exchange protocol written in C++ providing the functionality for streaming the acquired detector output pulses on a mass storage device according to the format required by the [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) framework for training and testing the calssifiers. 
 
 # How to start?
 
 ## Basic Principle
 
-<b>(1) Store a number of CORRECT and FALSE detector pulses</b> on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).<br><br>
-<b>(2) TRAIN (and TEST/EVALuate) the machine's classifier</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><b>Note: an independant pulse stream is required for TESTing/EVALuating the machine's classifier.</b><br><br>
+<b>(1) Store a number of CORRECT and FALSE assigned output pulses</b> on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).<br><br>
+<b>(2) TRAIN (and TEST/EVALuate) the machine's classifier</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/tree/master/pyDMLLTDetectorPulseDiscriminator/examples).
-<br><br><b>(3) Generate the lifetime spectrum</b> using the pulse stream recorded on the investigated sample by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
+<br><br><b>(3) Generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
@@ -161,6 +163,11 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
                        
                        debug                   = True)
 ```
+# Related Publications
+
+### Dec. 2019
+[A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br><br>
+
 # How to cite this Software?
 
 You can cite all versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
