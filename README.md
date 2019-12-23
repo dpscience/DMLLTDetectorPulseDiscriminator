@@ -31,7 +31,7 @@ A simple exchange protocol written in C++ providing the functionality for stream
 ## Basic Principle
 
 <b>(1) Store a number of CORRECT and FALSE assigned output pulses</b> on a separate stream for each detector A and B (e.g. in case of the DRS4 evaluation board you can easily use [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS).<br><br>
-<b>(2) TRAIN (and TEST/EVALuate) the machine's classifier</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses (1). <br><br><br>
+<b>(2) TRAIN (and TEST/EVALuate) the machine's classifier</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses. <br><br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/tree/master/pyDMLLTDetectorPulseDiscriminator/examples).
 <br><br><b>(3) Generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
 
@@ -211,7 +211,7 @@ are permitted provided that the following conditions are met:<br><br>
  
  # (GNU General Public License) - DPulseStreamAPI
  
- Copyright (c) 2016-2018 Danny Petschke (danny.petschke@uni-wuerzburg.de) All rights reserved.<br><br>
+ Copyright (c) 2019 Danny Petschke (danny.petschke@uni-wuerzburg.de) All rights reserved.<br><br>
 
 <p align="justify">This program is free software: you can redistribute it and/or modify<br>
 it under the terms of the GNU General Public License as published by<br>
