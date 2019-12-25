@@ -2,7 +2,7 @@ Support this project and keep always updated about recent software releases, bug
 
 # DMLLTDetectorPulseDiscriminator  
 
-Copyright (c) 2019 Danny Petschke (danny.petschke@uni-wuerzburg.de) All rights reserved.<br><br>
+Copyright (c) 2019 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights reserved.<br><br>
 <b>DMLLTDetectorPulseDiscriminator</b> - A supervised Machine Learning Approach for shape-sensitive Detector Pulse Discrimination in Lifetime Spectroscopy Applications.
 <br>
 
