@@ -10,17 +10,17 @@ Copyright (c) 2019-2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All ri
 
 # Content of the Framework
 
-## (1) pyDMLLTDetectorPulseDiscriminator
+## ``pyDMLLTDetectorPulseDiscriminator``
 
 A <b>python-based framework</b>, which provides all functionalities for <b>TRAINing and TESTing/EVALuating a classifier</b>, such as the naive Bayes classifier, on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier.
 
-## (2) DPulseStreamAPI 
+## ``DPulseStreamAPI``
 
 A simple exchange protocol written in C++ providing the functionality for streaming the acquired detector output pulses on a mass storage device according to the format required by the [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) framework for training/testing the classifiers. This protocol is not attached to any type of digitizer enabling an universal application of this approach. 
 
 # Quickstart Guide
 
-## Basic Principle
+## ``Basic Principle``
 
 * <b>Store a number of CORRECT (OK) and FALSE (!OK) assigned output pulses</b> each in a separate stream for both detectors A and B. In case you are using the [DRS4 evaluation board](https://www.psi.ch/en/drs/evaluation-board) of the Paul-Scherrer Institute (PSI, Switzerland) the software tool [DDRS4PALS](https://github.com/dpscience/DDRS4PALS) does the job for you.<br><br>
 * <b>TRAIN/EVALuate (and TEST) the classifiers</b> A and B on a set of (CORRECT/FALSE) streamed detector pulses.<br><br>
@@ -30,7 +30,7 @@ For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseD
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
-## Only a few Lines of Code ... 
+## ``Only a few Lines of Code ...`` 
 
 ```python
 relPath            = 'C:/dpscience/'
@@ -160,10 +160,10 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
 ```
 # Related Publication/Presentation
 
-### Publication in NIM A (Dec. 2019)
+### ``Publication in NIM A (Dec. 2019)``
 [A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br><br>
 
-### Presentation at 15th International Workshop on Slow Positron Beam Techniques & Applications (SLOPOS-15) in Prague (Sept. 2019)
+### ``Presentation at 15th International Workshop on Slow Positron Beam Techniques & Applications (SLOPOS-15) in Prague (Sept. 2019)``
 
 [SLOPOS-15 (Prague): A supervised machine learning approach for shape-sensitive detector pulse discrimination in positron spectroscopy applications](https://www.researchgate.net/publication/339573579_SLOPOS-15_Prague_A_supervised_machine_learning_approach_for_shape-sensitive_detector_pulse_discrimination_in_positron_spectroscopy_applications)<br><br>
 
@@ -192,7 +192,7 @@ You can cite all released software versions by using the <b>DOI 10.5281/zenodo.2
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2616929.svg)](https://doi.org/10.5281/zenodo.2616929)
 
-## v1.x
+## ``v1.x``
 
 <b>DMLLTDetectorPulseDiscriminator v1.0</b><br>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2616929.svg)](https://doi.org/10.5281/zenodo.2616929)<br>
 
