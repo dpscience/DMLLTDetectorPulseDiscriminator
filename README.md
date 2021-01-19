@@ -3,13 +3,12 @@ Support this project and keep always updated about recent software releases, bug
 # DMLLTDetectorPulseDiscriminator Framework 
 
 Copyright (c) 2019-2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights reserved.<br><br>
-<b>DMLLTDetectorPulseDiscriminator</b> - A supervised Machine Learning Approach for shape-sensitive Detector Pulse Discrimination in Lifetime Spectroscopy Applications.
+<b>DMLLTDetectorPulseDiscriminator</b> - A supervised machine learning approach for shape-sensitive detector pulse discrimination in lifetime spectroscopy applications.
 <br>
 
 ![DMLLTDetectorPulseDiscriminatorAbstract](/NIMpub.png)
 
-# Description of the Software
-
+# Content of the Framework
 
 ## (1) pyDMLLTDetectorPulseDiscriminator
 
@@ -156,16 +155,19 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
                        
                        debug                   = True)
 ```
-# Related Publication and Documentation
+# Related Publication/Presentation
 
-### Dec. 2019
+### Publication in NIM A (Dec. 2019)
 [A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br><br>
+
+### Presentation at 15th International Workshop on Slow Positron Beam Techniques & Applications (SLOPOS-15) in Prague (Sept. 2019)
+
+[SLOPOS-15 (Prague): A supervised machine learning approach for shape-sensitive detector pulse discrimination in positron spectroscopy applications](https://www.researchgate.net/publication/339573579_SLOPOS-15_Prague_A_supervised_machine_learning_approach_for_shape-sensitive_detector_pulse_discrimination_in_positron_spectroscopy_applications)<br><br>
 
 # How to cite this Software?
 
 <b>You should at least cite the following publication:</b><br><br>
 [A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br>
-
 
 
 ```latex
