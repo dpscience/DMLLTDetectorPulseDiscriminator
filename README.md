@@ -30,7 +30,7 @@ For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseD
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
-## ``How to apply ?`` 
+## ``How to apply? ... only a few Lines of Code ...`` 
 
 ```python
 relPath            = 'C:/dpscience/'
@@ -185,7 +185,7 @@ volume = {947},
 year = {2019}
 }
 ```
-Additionally, you must cite the applied version of the framework for your study.<br>
+Additionally, you must cite the applied version of the framework in your study.<br>
 
 You can cite all released software versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
 
