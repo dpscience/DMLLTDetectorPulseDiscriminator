@@ -22,12 +22,15 @@ A simple exchange protocol written in C++ providing the functionality for stream
 
 ## Basic Principle
 
-<b>(1) Store a number of CORRECT and FALSE assigned output pulses</b> in a separate stream for each detector A and B (e.g. in case of using the DRS4 evaluation board the software [DDRS4PALS software](https://github.com/dpscience/DDRS4PALS) does the job for you.<br><br>
-<b>(2) TRAIN (and TEST/EVALuate) the classifiers</b> (A and B) on a set of (CORRECT/FALSE) streamed detector pulses.<br><br>
+* <b>Store a number of CORRECT (OK) and FALSE (!OK) assigned output pulses</b> each in a separate stream for both detectors A and B. In case you are using the [DRS4 evaluation board](https://www.psi.ch/en/drs/evaluation-board) of the Paul-Scherrer Institute (PSI, Switzerland) the software tool [DDRS4PALS](https://github.com/dpscience/DDRS4PALS) does the job for you.<br><br>
+* <b>TRAIN/EVALuate (and TEST) the classifiers</b> A and B on a set of (CORRECT/FALSE) streamed detector pulses.<br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/tree/master/pyDMLLTDetectorPulseDiscriminator/examples).
-<br><br><b>(3) Generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
+<br><br>
+* <b>Generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
+
+## Only a few Lines of Code ... 
 
 ```python
 relPath            = 'C:/dpscience/'
@@ -183,8 +186,9 @@ volume = {947},
 year = {2019}
 }
 ```
+Additionally, you must cite the applied version of the framework.<br><br>
 
-Additionally, you can cite all released software versions by using the the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
+You can cite all released software versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2616929.svg)](https://doi.org/10.5281/zenodo.2616929)
 
