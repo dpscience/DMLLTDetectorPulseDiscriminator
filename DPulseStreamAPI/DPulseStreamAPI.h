@@ -1,6 +1,6 @@
 /****************************************************************************
 **
-**  Copyright (C) 2019 Danny Petschke
+**  Copyright (C) 2019-2021 Danny Petschke
 **
 **  This program is free software: you can redistribute it and/or modify
 **  it under the terms of the GNU General Public License as published by
@@ -83,12 +83,12 @@ public:
 	void stopAndSave();
 
 	/* this function streams ONE single pulse (time & voltage trace) to the binary file */
-	/* int 'length': size of 'voltage' and/or 'time' in bytes */
-	bool writePulse(float *time, float *voltage, int length);
+	/* int 'nBytes': size of 'voltage' and/or 'time' in bytes */
+	bool writePulse(float *time, float *voltage, int nBytes);
 
 	/* this function streams TWO pulses (time & voltage trace) to the binary file */
-	/* int 'length': size of 'voltage' and/or 'time' in bytes */
-	bool writePulsePair(float *time_1, float *voltage_1, float *time_2, float *voltage_2, int length);
+	/* int 'nBytes': size of 'voltage' and/or 'time' in bytes */
+	bool writePulsePair(float *time_1, float *voltage_1, float *time_2, float *voltage_2, int nBytes);
 
 	inline bool isArmed()    const { return m_isArmed; }
 	inline string fileName() const { return m_fileName; }

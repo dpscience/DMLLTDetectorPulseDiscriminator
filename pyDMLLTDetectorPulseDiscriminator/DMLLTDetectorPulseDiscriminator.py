@@ -12,7 +12,7 @@ Created on Tue Mar 19 13:25:01 2019
 #** DMLLTDetectorPulseDiscriminator v1.0 (29.03.2019)
 #**
 #**
-#** Copyright (c) 2019 Danny Petschke. All rights reserved.
+#** Copyright (c) 2019-2021 Danny Petschke. All rights reserved.
 #** 
 #** Redistribution and use in source and binary forms, with or without modification, 
 #** are permitted provided that the following conditions are met:
@@ -1679,7 +1679,7 @@ def createLifetimeSpectrum(machineInputA           = DMachineParams(),
             x_arrayB.append(voltage_normB)
             resultB = classifierB.predict(x_arrayB)
             
-            if not (resultA[0] == 1 && resultB[0] == 1):
+            if not (resultA[0] == 1 and resultB[0] == 1):
                 continue
             
             
