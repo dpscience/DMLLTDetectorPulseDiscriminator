@@ -9,24 +9,24 @@ Copyright (c) 2019-2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All ri
 ![DMLLTDetectorPulseDiscriminatorAbstract](/NIMpub.png)
 
 # Content of the Framework
-
+ 
 ## ``pyDMLLTDetectorPulseDiscriminator``
 
-A <b>python-based framework</b>, which provides all functionalities for <b>TRAINing and TESTing/EVALuating a classifier</b>, such as the naive Bayes classifier, on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier.
+A <b>python-based framework</b>, which provides all functionalities for <b>TRAINing/EVALuating and TESTing a classifier</b> such as the naive Bayes classifier on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier, i.e. the classifier providing the highest prediction accuracy.
 
 ## ``DPulseStreamAPI``
 
-A simple exchange protocol written in C++ providing the functionality for streaming the acquired detector output pulses on a mass storage device according to the format required by the [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) framework for training/testing the classifiers. This protocol is not attached to any type of digitizer enabling an universal application of this approach. 
+A simple exchange protocol written in native C++ providing the functionality for streaming the acquired detector output pulses on a mass storage device according to the data format required from the [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) framework for TRAINing/EVALuating and TESTing the classifiers. This protocol is not attached to any type of digitizer enabling an universal application of this approach. 
 
 # Quickstart Guide
 
 ## ``Basic Principle``
 
-* <b>Store a number of CORRECT (OK) and FALSE (!OK) assigned output pulses</b> each in a separate stream for both detectors A and B. In case you are using the [DRS4 evaluation board](https://www.psi.ch/en/drs/evaluation-board) of the Paul-Scherrer Institute (PSI, Switzerland) the software tool [DDRS4PALS](https://github.com/dpscience/DDRS4PALS) does the job for you.<br><br>
-* <b>TRAIN/EVALuate (and TEST) the classifiers</b> A and B on a set of (CORRECT/FALSE) streamed detector pulses.<br><br>
+* <b>Store a number of CORRECT (OK) and FALSE (!OK) assigned output pulses</b> each in a separate stream for both detectors A and B. In case of you are using the [DRS4 evaluation board](https://www.psi.ch/en/drs/evaluation-board) of the Paul-Scherrer Institute (PSI, Switzerland) the software tool [DDRS4PALS](https://github.com/dpscience/DDRS4PALS) does this job for you.<br><br>
+* <b>TRAIN/EVALuate and TEST the classifiers</b> for A and B on this set of streamed detector pulses.<br><br>
 For more details see [examples](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/tree/master/pyDMLLTDetectorPulseDiscriminator/examples).
 <br><br>
-* <b>Generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
+* <b>Finally, generate the lifetime spectrum</b> using the pulse stream recorded on the studied sample material by applying the TRAINed classifiers for pulse-shape discrimination.<br><br>  
 
 ![DMLLTDetectorPulseDiscriminator](/principle.png)
 
@@ -167,7 +167,7 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
 
 [SLOPOS-15 (Prague): A supervised machine learning approach for shape-sensitive detector pulse discrimination in positron spectroscopy applications](https://www.researchgate.net/publication/339573579_SLOPOS-15_Prague_A_supervised_machine_learning_approach_for_shape-sensitive_detector_pulse_discrimination_in_positron_spectroscopy_applications)<br><br>
 
-# How to cite this Software?
+# How to cite this Framework?
 
 <b>You should at least cite the following publication:</b><br><br>
 [A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br>
