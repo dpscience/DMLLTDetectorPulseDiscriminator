@@ -1,4 +1,11 @@
-Support this project and keep always updated about recent software releases, bug fixes and major improvements by [following on researchgate](https://www.researchgate.net/project/A-supervised-machine-learning-approach-for-shape-sensitive-detector-pulse-discrimination-in-lifetime-spectroscopy-applications) or [github](https://github.com/dpscience?tab=followers).<br><br>
+Support this project and keep always updated about recent software releases, bug fixes and major improvements by [following on researchgate](https://www.researchgate.net/project/A-supervised-machine-learning-approach-for-shape-sensitive-detector-pulse-discrimination-in-lifetime-spectroscopy-applications) or [github](https://github.com/dpscience?tab=followers).
+
+[![badge-researchGate](https://img.shields.io/badge/project-researchGate-brightgreen)](https://www.researchgate.net/project/A-supervised-machine-learning-approach-for-shape-sensitive-detector-pulse-discrimination-in-lifetime-spectroscopy-applications)
+
+![badge-followers](https://img.shields.io/github/followers/dpscience?style=social)
+![badge-stars](https://img.shields.io/github/stars/dpscience/DMLLTDetectorPulseDiscriminator?style=social)
+![badge-forks](https://img.shields.io/github/forks/dpscience/DMLLTDetectorPulseDiscriminator?style=social)
+
 
 # DMLLTDetectorPulseDiscriminator Framework 
 
