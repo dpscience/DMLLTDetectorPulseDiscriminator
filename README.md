@@ -1,6 +1,4 @@
-![badge-OS](https://img.shields.io/badge/OS-Windows-blue)
-![badge-language](https://img.shields.io/badge/language-Python-blue)
-![badge-license](https://img.shields.io/badge/license-BSD-blue)
+![badge-OS](https://img.shields.io/badge/OS-tested%20under%20Windows%2010-brightgreen)
 
 Support this project and keep always updated about recent software releases, bug fixes and major improvements by [following on researchgate](https://www.researchgate.net/project/A-supervised-machine-learning-approach-for-shape-sensitive-detector-pulse-discrimination-in-lifetime-spectroscopy-applications) or [github](https://github.com/dpscience?tab=followers).
 
@@ -23,9 +21,15 @@ Copyright (c) 2019-2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All ri
  
 ## ``pyDMLLTDetectorPulseDiscriminator``
 
+![badge-language](https://img.shields.io/badge/language-Python-blue)
+![badge-license](https://img.shields.io/badge/license-BSD-green)
+
 A <b>python-based framework</b>providing the functionalities for <b>TRAINing/EVALuating and TESTing a classifier</b> such as the naive Bayes classifier on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier, i.e. the classifier providing the highest prediction accuracy.
 
 ## ``DPulseStreamAPI``
+
+![badge-language](https://img.shields.io/badge/language-C++-blue)
+![badge-license](https://img.shields.io/badge/license-GPL-blue)
 
 A simple exchange protocol written in native C++ providing the functionality for streaming the acquired detector output pulses on a mass storage device according to the data format required from the [pyDMLLTDetectorPulseDiscriminator](https://github.com/dpscience/DMLLTDetectorPulseDiscriminator/pyDMLLTDetectorPulseDiscriminator) framework for TRAINing/EVALuating and TESTing the classifiers. This protocol is not attached to any type of digitizer enabling an universal application of this approach. 
 
