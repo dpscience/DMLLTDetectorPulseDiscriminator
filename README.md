@@ -169,7 +169,7 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
 
 # How to cite this Framework?
 
-* <b>You should at least cite the following publication.</b><br><br>
+* <b>You should at least cite the following publication.</b><br>
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.nima.2019.162742-yellowgreen)](https://doi.org/10.1016/j.nima.2019.162742)
 
