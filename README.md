@@ -169,23 +169,13 @@ createLifetimeSpectrum(machineInputA           = mlinputA,
 
 # How to cite this Framework?
 
-<b>You should at least cite the following publication:</b><br><br>
+* <b>You should at least cite the following publication.</b><br><br>
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.nima.2019.162742-yellowgreen)](https://doi.org/10.1016/j.nima.2019.162742)
+
 [A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS) (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, Elsevier)](https://www.sciencedirect.com/science/article/pii/S0168900219312021?via%3Dihub)<br>
 
-```latex
-@article {Petschke2019,
-abstract = {The acquisition of high-quality and non-artefact afflicted positron lifetime spectra is crucial for a profound analysis, i.e. the correct lifetime spectra decomposition for retrieving the true information. Since the introduction of digital positron lifetime spectrometers, this is generally realized by applying detector pulse discrimination with the help of software-based pulse filtering regarding area and/or shape of the detector pulses. Here, we present a novel approach for shape-sensitive detector pulse discrimination applying supervised machine learning (ML) based on a naive Bayes classification model using a normally distributed likelihood. In general, naive Bayes methods find wide application for many real-world problems such as famously applied for email spam filtering, text categorization or document classification. Their algorithms are relatively simple to implement and, moreover, perform extremely fast compared to more sophisticated methods in training and predicting on high-dimensional datasets, i.e. detector pulses. In this study we show that a remarkable low number of less than 20 labelled training pulses is sufficient to achieve comparable results as of applying physically filtering. Hence, our approach represents a potential alternative.},
-author = {Petschke, Danny and Staab, Torsten E.M.},
-doi = {10.1016/j.nima.2019.162742},
-issn = {01689002},
-journal = {Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
-keywords = {Detector pulses,Lifetime spectroscopy,Naive Bayes,Positron spectroscopy,Pulse shape discrimination,Supervised machine learning},
-title = {{A supervised machine learning approach using naive Gaussian Bayes classification for shape-sensitive detector pulse discrimination in positron annihilation lifetime spectroscopy (PALS)}},
-volume = {947},
-year = {2019}
-}
-```
-<b>Additionally, you must cite the applied version of the framework in your study.</b><br>
+* <b>Additionally, you must cite the applied version of the framework in your study.</b><br>
 
 You can cite all released software versions by using the <b>DOI 10.5281/zenodo.2616929</b>. This DOI represents all versions, and will always resolve to the latest one.<br>
 
