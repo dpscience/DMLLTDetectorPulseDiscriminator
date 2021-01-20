@@ -19,7 +19,7 @@ Copyright (c) 2019-2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All ri
  
 ## ``pyDMLLTDetectorPulseDiscriminator``
 
-A <b>python-based framework</b>, which provides all functionalities for <b>TRAINing/EVALuating and TESTing a classifier</b> such as the naive Bayes classifier on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier, i.e. the classifier providing the highest prediction accuracy.
+A <b>python-based framework</b>providing the functionalities for <b>TRAINing/EVALuating and TESTing a classifier</b> such as the naive Bayes classifier on a set of CORRECT and FALSE/REJECT detector output pulses. Moreover, it provides the generation of lifetime spectra from shape-discriminated detector pulses applying the TRAINed classifier, i.e. the classifier providing the highest prediction accuracy.
 
 ## ``DPulseStreamAPI``
 
